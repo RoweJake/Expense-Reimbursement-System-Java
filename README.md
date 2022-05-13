@@ -39,8 +39,8 @@ List of features ready and TODOs for future development
 * Run the project1Script.sql script on the database to create the schema used by the project as well as add some starting test data.
 * Configure the following environment variables to provide credentials for the project to connect to your database instance.
 > DATABASE_ENDPOINT - The endpoint and port of your database instance.
-> DATABASE_USERNAME - The username for your database account.
-> DATABASE_PASSWORD - The password for your database account.
+DATABASE_USERNAME - The username for your database account.
+DATABASE_PASSWORD - The password for your database account.
 * In the dao.ConnectionFactory.java file on line 17, change the final string in the url variable to match the name of your database.
 
 ## Usage
@@ -49,7 +49,7 @@ List of features ready and TODOs for future development
 * Browse to the server url to reach the login page.
 * Enter a username and password to login to the application.
 > The user will be redirected to the manager or employee dashboard based on their role.
-> An invalid username or password will redirect the user to the badlogin page where they can return to the login page to try again.
+An invalid username or password will redirect the user to the badlogin page where they can return to the login page to try again.
 
 ### Employee
 
